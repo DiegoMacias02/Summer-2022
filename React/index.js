@@ -1,8 +1,15 @@
-const incrementBtn = document.getElementById('increment-btn');
-const countDis = document.getElementById('count-display');
+const reactContentRoot = document.getElementById("root")
 
-let currentCount = 0;
-incrementBtn.addEventListener("click", ()=>{
-    currentCount++
-    countDis.innerText = currentCount;
-})
+const myFirstElement = React.createElement('ul', null, [
+    React.createElement("li", null, "item1"),
+    React.createElement("li", null, "item2")
+])
+
+const myJSXElement = (
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+    </ul>
+)
+
+ReactDOM.render( myJSXElement,reactContentRoot)
