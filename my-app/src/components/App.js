@@ -1,10 +1,10 @@
 import React from "react";
 import CountButton from "./CountButton/CountButton";
+import SearchBar from "./SearchBar/SearchBar";
 function App() {
   return (
     <div>
-          <CountButton incrementBy={1} buttonColor={'blue'} borderRadius={'1px'} />
-          <CountButton incrementBy={5} buttonColor={'orange'} borderRadius={'200px'} />
+        <SearchBar/>
     </div>
   );
 }
