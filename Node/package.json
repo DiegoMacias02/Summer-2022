@@ -18,5 +18,8 @@
   "homepage": "https://github.com/DiegoMacias02/Summer-2022#readme",
   "devDependencies": {
     "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
   }
 }
